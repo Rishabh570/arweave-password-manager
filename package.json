@@ -1,0 +1,32 @@
+{
+  "name": "arweave-password-manager",
+  "version": "1.0.0",
+  "description": "A password manager that uses Arweave for storage and Google for authentication.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "@react-oauth/google": "^0.12.1",
+    "arweave": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "vite": "^2.0.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  },
+  "keywords": [
+    "password-manager",
+    "arweave",
+    "google-authentication"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
