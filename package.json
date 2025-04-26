@@ -9,18 +9,18 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@react-oauth/google": "^0.12.1",
+    "arweave": "^1.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
-    "@react-oauth/google": "^0.12.1",
-    "arweave": "^1.0.0"
+    "vite": "^6.3.3"
   },
   "devDependencies": {
-    "typescript": "^4.0.0",
-    "vite": "^2.0.0",
-    "@vitejs/plugin-react": "^4.0.4",
     "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0"
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "typescript": "^4.0.0"
   },
   "keywords": [
     "password-manager",
